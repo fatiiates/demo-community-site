@@ -1,0 +1,121 @@
+#kapsayici-test,
+#kapsayici-dy,
+#kapsayici-esli{
+  width: 100%;
+  height:auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+
+  float: left;
+}
+#box-region{
+  width:auto;
+  height:auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+#box-region .box{
+  width:150px;
+  height:auto;
+  display: inline-block;
+  text-align:center;
+  margin-right:5px;
+  margin-left:5px;
+  border-radius:2px;
+  background-color: rgba(0,197,255,0.3);
+
+}
+#box-region .box .media-content{
+  float: left;
+  border:1px solid rgba(0,197,255,0.4);
+  background-color:White;
+  width:150px;
+  height:130px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+}
+#box-region .box .media-content .media{
+
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+}
+#box-region .box .target-box{
+  min-width: 150px;
+  float: left;
+  min-height: 45px;
+  text-align:center;
+  vertical-align: middle;
+  display:table-cell;
+  border:1px solid rgba(0,197,255,0.3);
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  z-index:auto;
+  max-width: 150px;
+}
+#box-region .box .active{
+  background-color: rgba(0,197,255,1);
+
+}
+#box-region .box .target-box #selectedAns{
+  padding: 6.4%;
+  max-width:100%;
+  overflow-x: auto;
+}
+
+#term-region{
+  float: left;
+  width:auto;
+  height:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  max-width: 100%;
+
+}
+#term-region #terms{
+  display: inline-block;
+  border:1px solid #cfcfcf;
+  background-color: #f2eee4;
+  width: 95%;
+  border-radius:2px;
+  padding-top: 10px;
+  max-width: 100%;
+
+}
+#term-region #terms .term{
+  position: relative;
+  min-width: 140px;
+  min-height: 40px;
+  text-align:center;
+  display: inline-block;
+  background-color: #ffff;
+  border-radius:2px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-right:5px;
+  margin-left:5px;
+  margin-bottom:10px;
+  z-index:0;
+  max-width: 100%;
+  overflow-x: auto;
+
+}
+#term-region #terms .term #options{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 148px;
+  height: 40px;
+  line-height: 15px;
+}
+#term-region #terms .hideTerm{
+  background: transparent;
+  border-color: transparent;
+  cursor:auto;
+}
